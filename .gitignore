@@ -1,0 +1,29 @@
+# ===================== 隐私配置（最重要，防止密钥泄露）
+.env
+.env.local
+.env.prod
+*.env
+
+# ===================== Python 缓存、编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+logs/
+temp/
+*.tmp
+
+# ===================== VS Code 配置文件
+.vscode/
+!.vscode/launch.json
+!.vscode/settings.json
+
+# ===================== 系统垃圾文件
+Thumbs.db
+.DS_Store
+
+# ===================== 虚拟环境目录（如果你后续建venv）
+venv/
+.venv/
+env/
